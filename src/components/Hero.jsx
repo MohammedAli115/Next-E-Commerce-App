@@ -50,7 +50,7 @@ const Hero = () => {
             src="/images/hero.svg"
             alt="Hero Image"
             width={430}
-            height={0}
+            height={20}
             loading="eager"
             className="object-contain"
           />
