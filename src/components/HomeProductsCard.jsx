@@ -20,7 +20,7 @@ const HomeProductsCard = ({ title, start, end }) => {
     );
 
   return (
-    <section className="py-16 px-6">
+    <section className="py-16 max-w-6xl mx-auto px-4">
       <h2 className="text-4xl font-extrabold text-center mb-12 tracking-wide">
         {title}
       </h2>
