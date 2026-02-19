@@ -1,15 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import { Search, ShoppingCart, User } from "lucide-react";
+import Logo from "./Logo";
 const Navbar = () => {
   return (
     <nav className="bg-white">
       <div className="flex items-center mx-auto max-w-6xl gap-6 p-4">
         {/* Logo */}
-        <Link href="/" className="text-3xl font-extrabold tracking-wide">
-          SHOP.CO
-        </Link>
-
+        <Logo />
         {/* Links */}
         <ul className="hidden md:flex items-center gap-6 text-[18px] font-medium text-gray-700">
           <li>

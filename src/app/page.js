@@ -1,13 +1,12 @@
-import Brands from "@/components/BrandStip";
-import Customers from "@/components/Customers";
-import Hero from "@/components/Hero";
-import HomeProductsCard from "@/components/HomeProductsCard";
-import Navbar from "@/components/Navbar";
+import Brands from "@/components/home/BrandStip";
+import Customers from "@/components/home/Customers";
+import Hero from "@/components/home/Hero";
+import HomeProductsCard from "@/components/home/HomeProductsCard";
+
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Brands />
 
